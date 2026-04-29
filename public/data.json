@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://i.postimg.cc/example1.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Linen Summer Shirt",
+    "brand": "BreezeWear",
+    "price": 25,
+    "rating": 4.5,
+    "stock": 15,
+    "description": "Breathable linen shirt designed to keep you cool in the heat.",
+    "image": "https://i.postimg.cc/example2.png",
+    "category": "Apparel"
+  },
+  {
+    "id": 3,
+    "name": "Mineral Sunscreen SPF 50",
+    "brand": "GlowGuard",
+    "price": 18,
+    "rating": 4.9,
+    "stock": 25,
+    "description": "Non-greasy mineral sunscreen with high UV protection.",
+    "image": "https://i.postimg.cc/example3.png",
+    "category": "Skincare"
+  },
+  {
+    "id": 4,
+    "name": "Oversized Beach Towel",
+    "brand": "SandFree",
+    "price": 20,
+    "rating": 4.6,
+    "stock": 30,
+    "description": "Quick-dry, sand-resistant towel with a vibrant tropical print.",
+    "image": "https://i.postimg.cc/example4.png",
+    "category": "Beach Accessories"
+  },
+  {
+    "id": 5,
+    "name": "Wide-Brim Straw Hat",
+    "brand": "IslandVibe",
+    "price": 12,
+    "rating": 4.4,
+    "stock": 8,
+    "description": "Classic straw hat offering excellent sun coverage for the face.",
+    "image": "https://i.postimg.cc/example5.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 6,
+    "name": "Hydrating Face Mist",
+    "brand": "AquaDew",
+    "price": 14,
+    "rating": 4.8,
+    "stock": 20,
+    "description": "Refreshing aloe-infused mist to soothe skin after sun exposure.",
+    "image": "https://i.postimg.cc/example6.png",
+    "category": "Skincare"
+  }
+]

@@ -5,8 +5,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="flex  justify-between flex-col">
       <Navbar></Navbar>
+      <main></main>
       <Footer></Footer>
     </div>
   );
