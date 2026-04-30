@@ -21,7 +21,6 @@ const UserNavbar = () => {
     { name: "Home", href: "/", hasDropdown: true },
     { name: "Product", href: "/shop", hasDropdown: true },
     { name: "My Profile", href: "/pages", hasDropdown: true },
-  
   ];
 
   return (
@@ -88,7 +87,7 @@ const UserNavbar = () => {
                 className="object-contain md:w-10 md:h-10"
               />
               <span className="text-xl md:text-2xl font-bold text-[#1A1A1A]">
-                Ecobazar
+                Sun Cart
               </span>
             </Link>
           </div>

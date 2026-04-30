@@ -143,6 +143,5 @@ const Suncart = () => {
       </div>
     </header>
   );
-};
-
+}
 export default Suncart;
