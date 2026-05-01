@@ -1,20 +1,6 @@
 [
   {
     "id": 1,
-    "name": "Elite UV Aviators",
-    "brand": "SunShade",
-    "price": 30,
-    "discountPrice": 15,
-    "discountPercent": 50,
-    "rating": 4.9,
-    "stock": 12,
-    "isHot": true,
-    "description": "Premium polarized lenses with lightweight frames.",
-    "image": "https://images.unsplash.com/photo-1511499767390-903390e62bc0?auto=format&fit=crop&w=800&q=80",
-    "category": "Sunglasses"
-  },
-  {
-    "id": 2,
     "name": "Tropical Linen Shirt",
     "brand": "BreezeWear",
     "price": 50,
@@ -28,7 +14,7 @@
     "category": "Summer Outfits"
   },
   {
-    "id": 4,
+    "id": 2,
     "name": "Sand-Free XL Towel",
     "brand": "ShoreSide",
     "price": 40,
@@ -42,7 +28,7 @@
     "category": "Beach Accessories"
   },
   {
-    "id": 5,
+    "id": 3,
     "name": "Handmade Straw Fedora",
     "brand": "Coastline",
     "price": 36,
@@ -56,7 +42,7 @@
     "category": "Accessories"
   },
   {
-    "id": 8,
+    "id": 4,
     "name": "Floral Summer Dress",
     "brand": "BreezeWear",
     "price": 70,
@@ -70,7 +56,7 @@
     "category": "Summer Outfits"
   },
   {
-    "id": 9,
+    "id": 5,
     "name": "Canvas Beach Tote",
     "brand": "ShoreSide",
     "price": 30,
@@ -84,7 +70,7 @@
     "category": "Beach Accessories"
   },
   {
-    "id": 10,
+    "id": 6,
     "name": "Cooling Face Gel",
     "brand": "PureGlow",
     "price": 20,
@@ -98,7 +84,7 @@
     "category": "Skincare"
   },
   {
-    "id": 11,
+    "id": 7,
     "name": "Modern Wayfarers",
     "brand": "SunShade",
     "price": 44,
@@ -112,7 +98,7 @@
     "category": "Sunglasses"
   },
   {
-    "id": 12,
+    "id": 8,
     "name": "Denim Summer Shorts",
     "brand": "BreezeWear",
     "price": 34,
@@ -126,7 +112,7 @@
     "category": "Summer Outfits"
   },
   {
-    "id": 13,
+    "id": 9,
     "name": "Zinc Stick Sunscreen",
     "brand": "PureGlow",
     "price": 14,
@@ -140,7 +126,7 @@
     "category": "Skincare"
   },
   {
-    "id": 15,
+    "id": 10,
     "name": "Men's Cargo Shorts",
     "brand": "BreezeWear",
     "price": 38,
@@ -154,7 +140,7 @@
     "category": "Summer Outfits"
   },
   {
-    "id": 18,
+    "id": 11,
     "name": "Vitamin C Serum",
     "brand": "PureGlow",
     "price": 32,
@@ -168,7 +154,7 @@
     "category": "Skincare"
   },
   {
-    "id": 19,
+    "id": 12,
     "name": "Wide Brim Sun Hat",
     "brand": "Coastline",
     "price": 42,
@@ -182,7 +168,7 @@
     "category": "Accessories"
   },
   {
-    "id": 20,
+    "id": 13,
     "name": "Casual Cotton Tee",
     "brand": "BreezeWear",
     "price": 20,
@@ -196,7 +182,7 @@
     "category": "Summer Outfits"
   },
   {
-    "id": 21,
+    "id": 14,
     "name": "Gold Frame Aviators",
     "brand": "SunShade",
     "price": 56,
@@ -210,7 +196,7 @@
     "category": "Sunglasses"
   },
   {
-    "id": 23,
+    "id": 15,
     "name": "Lip Balm SPF 30",
     "brand": "PureGlow",
     "price": 8,
@@ -224,7 +210,7 @@
     "category": "Skincare"
   },
   {
-    "id": 24,
+    "id": 16,
     "name": "Polarized Clubmasters",
     "brand": "SunShade",
     "price": 48,
@@ -238,7 +224,7 @@
     "category": "Sunglasses"
   },
   {
-    "id": 25,
+    "id": 17,
     "name": "Summer Flip Flops",
     "brand": "Coastline",
     "price": 18,
@@ -252,7 +238,7 @@
     "category": "Accessories"
   },
   {
-    "id": 27,
+    "id": 18,
     "name": "Cotton Polo Shirt",
     "brand": "BreezeWear",
     "price": 44,
@@ -266,7 +252,7 @@
     "category": "Summer Outfits"
   },
   {
-    "id": 28,
+    "id": 19,
     "name": "Hydro Mist SPF",
     "brand": "PureGlow",
     "price": 28,
@@ -280,7 +266,7 @@
     "category": "Skincare"
   },
   {
-    "id": 30,
+    "id": 20,
     "name": "Waterproof Backpack",
     "brand": "ShoreSide",
     "price": 50,
@@ -294,7 +280,7 @@
     "category": "Beach Accessories"
   },
   {
-    "id": 31,
+    "id": 21,
     "name": "Linen Trousers",
     "brand": "BreezeWear",
     "price": 64,
@@ -308,7 +294,7 @@
     "category": "Summer Outfits"
   },
   {
-    "id": 32,
+    "id": 22,
     "name": "Cleansing Gel",
     "brand": "PureGlow",
     "price": 22,
@@ -322,7 +308,7 @@
     "category": "Skincare"
   },
   {
-    "id": 36,
+    "id": 23,
     "name": "Silk Summer Scarf",
     "brand": "BreezeWear",
     "price": 24,
@@ -336,7 +322,7 @@
     "category": "Accessories"
   },
   {
-    "id": 37,
+    "id": 24,
     "name": "Tinted Moisturizer",
     "brand": "PureGlow",
     "price": 26,
@@ -350,7 +336,7 @@
     "category": "Skincare"
   },
   {
-    "id": 41,
+    "id": 25,
     "name": "After Sun Lotion",
     "brand": "PureGlow",
     "price": 18,
@@ -364,21 +350,7 @@
     "category": "Skincare"
   },
   {
-    "id": 44,
-    "name": "Mesh Beach Bag",
-    "brand": "ShoreSide",
-    "price": 20,
-    "discountPrice": 10,
-    "discountPercent": 50,
-    "rating": 4.4,
-    "stock": 50,
-    "isHot": false,
-    "description": "Mesh bottom to let sand fall out.",
-    "image": "https://images.unsplash.com/photo-1622560811176-aeaf5d8466cc?auto=format&fit=crop&w=800&q=80",
-    "category": "Beach Accessories"
-  },
-  {
-    "id": 45,
+    "id": 26,
     "name": "Oversized Linen Shirt",
     "brand": "BreezeWear",
     "price": 54,
@@ -392,7 +364,7 @@
     "category": "Summer Outfits"
   },
   {
-    "id": 49,
+    "id": 27,
     "name": "Beach Blanket",
     "brand": "ShoreSide",
     "price": 34,

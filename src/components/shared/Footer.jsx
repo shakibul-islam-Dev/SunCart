@@ -109,22 +109,7 @@ const Footer = () => {
               <IoQrCodeOutline />
             </div>
 
-            <div className="flex flex-col gap-2">
-              <Image
-                src="/google-play.png"
-                alt="Google Play"
-                width={110}
-                height={35}
-                className="cursor-pointer"
-              />
-              <Image
-                src="/app-store.png"
-                alt="App Store"
-                width={110}
-                height={35}
-                className="cursor-pointer"
-              />
-            </div>
+            <div className="flex flex-col gap-2"></div>
           </div>
 
           <div className="flex gap-6 mt-4 text-xl">

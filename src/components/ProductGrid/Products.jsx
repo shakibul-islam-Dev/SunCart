@@ -4,7 +4,15 @@ export default function Products({ items }) {
   const { image, name, rating, price } = items;
   return (
     <div>
-      <Image src={image} alt={name} width={1200} height={1200} />
+      <Image
+        src={image}
+        alt={name}
+        width={200}
+        height={200}
+        priority={true}
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        objectFit="cover"
+      />
       <h1>{name}</h1>
       <h1>{rating}</h1>
       <h1>{price}</h1>
