@@ -1,12 +1,11 @@
-"use client";
 import Hero from "@/components/Hero/Hero";
-import NewsLetter from "../NewsLetter/NewsLetter";
+import ProductGrid from "../ProductGrid/ProductGrid";
 
 const PublicHome = () => {
   return (
     <div>
-      {" "}
-      <Hero></Hero>{" "}
+      <Hero></Hero>
+      <ProductGrid></ProductGrid>
     </div>
   );
 };

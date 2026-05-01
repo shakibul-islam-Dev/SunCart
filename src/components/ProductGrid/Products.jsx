@@ -1,36 +1,44 @@
+"use client";
+import { Chip } from "@heroui/react";
+
+import { Button } from "@heroui/react";
 import Image from "next/image";
+import Link from "next/link";
+import { IoStar } from "react-icons/io5";
 
 export default function Products({ items }) {
-  const { image, name, rating, price } = items;
+  const { id, image, name, rating, isHot, price } = items;
+
   return (
-    <div>
-      <Image
-        src={image}
-        alt={name}
-        width={200}
-        height={200}
-        priority={true}
-        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        objectFit="cover"
-      />
-      <h1>{name}</h1>
-      <h1>{rating}</h1>
-      <h1>{price}</h1>
-      <button>ViewDetails</button>
+    <div className="roundede-full space-y-4  flex flex-col ">
+      {/* image parente */}
+      <div className="relative aspect-square w-full">
+        <Image
+          className="rounded-2xl object-cover"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          src={image}
+          alt={name}
+          fill
+        />
+        <Chip
+          size="sm"
+          className={`absolute right-2 top-2 text-white border-none ${isHot ? "bg-orange-600 animate-pulse" : "bg-slate-700"}`}
+        >
+          {isHot ? "🔥 Hot Deals" : "Popular"}
+        </Chip>
+      </div>
+
+      <div className="space-y-3">
+        <h1 className="text-2xl font-bold">{name}</h1>
+        <div className="flex flex-row items-center gap-2">
+          <IoStar />
+          <h1 className="text-xl font-bold">{rating}</h1>
+        </div>
+        <h1 className="text-xl font-bold">$ {price}</h1>
+        <Link href={`/products/${id}`} prefetch={true} className="w-full block">
+          <Button className="w-full">View Details</Button>
+        </Link>
+      </div>
     </div>
   );
 }
-//   {
-//     "id": 1,
-//     "name": "Elite UV Aviators",
-//     "brand": "SunShade",
-//     "price": 30,
-//     "discountPrice": 15,
-//     "discountPercent": 50,
-//     "rating": 4.9,
-//     "stock": 12,
-//     "isHot": true,
-//     "description": "Premium polarized lenses with lightweight frames.",
-//     "image": "https://images.unsplash.com/photo-1511499767390-903390e62bc0?q=80&w=800&auto=format&fit=crop",
-//     "category": "Sunglasses"
-//   },
