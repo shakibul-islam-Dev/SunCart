@@ -4,7 +4,7 @@ export default function Products({ items }) {
   const { image, name, rating, price } = items;
   return (
     <div>
-      <Image src={image} alt={name} width={500} height={500} />
+      <Image src={image} alt={name} width={1200} height={1200} />
       <h1>{name}</h1>
       <h1>{rating}</h1>
       <h1>{price}</h1>
