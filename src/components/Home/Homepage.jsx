@@ -1,13 +1,16 @@
-import React from "react";
-import NotLogin from "@/components/Home/PublicHome";
-import NewsLetter from "../NewsLetter/NewsLetter";
+"use client";
+import React, { useState } from "react";
+
+import PublicHome from "./PublicHome";
+import Login from "./Login";
 
 const Homepage = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
   return (
-    <div>
-      {/* <NotLogin></NotLogin> */}
-      <NewsLetter></NewsLetter>
-    </div>
+    <section>
+      {isLoggedIn ? <Login> </Login> : <PublicHome></PublicHome>}
+    </section>
   );
 };
 

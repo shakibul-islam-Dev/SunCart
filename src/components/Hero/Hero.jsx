@@ -1,10 +1,12 @@
 "use client";
-
 import React from "react";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
+import { getProductsData } from "@/lib/getProductsData";
+export default function Hero() {
+  const loadData = getProductsData();
+  console.log(loadData);
 
-const PublicHero = () => {
   return (
     <section className="w-full bg-white pt-6">
       {/* Main Banner Slider Area */}
@@ -13,13 +15,6 @@ const PublicHero = () => {
           {/* Left: Product Image with Slider Border */}
           <div className="w-full md:w-1/2 p-10 flex justify-center relative">
             <div className="relative w-full aspect-square max-w-112.5 border-[3px] border-[#00B207] rounded-lg overflow-hidden p-4 bg-white shadow-sm">
-              <Image
-                src="/hero-basket.png"
-                alt="Fresh Organic Food Basket"
-                fill
-                className="object-contain p-4"
-                priority
-              />
               {/* 70% Off Badge */}
               <div className="absolute top-4 right-4 bg-[#FF8A00] text-white rounded-full w-16 h-16 flex flex-col items-center justify-center font-bold shadow-md">
                 <span className="text-lg leading-none">70%</span>
@@ -133,6 +128,4 @@ const PublicHero = () => {
       </div>
     </section>
   );
-};
-
-export default PublicHero;
+}

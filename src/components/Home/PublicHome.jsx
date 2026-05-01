@@ -5,7 +5,8 @@ import NewsLetter from "../NewsLetter/NewsLetter";
 const PublicHome = () => {
   return (
     <div>
-      <Hero></Hero>
+      {" "}
+      <Hero></Hero>{" "}
     </div>
   );
 };

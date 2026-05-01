@@ -79,7 +79,7 @@ const UserNavbar = () => {
           <div className="flex justify-center">
             <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/logo_green.png"
+                src="/logo.png"
                 alt="Ecobazar Logo"
                 width={32}
                 height={32}

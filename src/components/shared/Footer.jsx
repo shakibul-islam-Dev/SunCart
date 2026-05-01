@@ -1,185 +1,149 @@
-"use client";
-import React from "react";
-import Link from "next/link";
+import Image from "next/image";
+import { RiSendPlane2Line } from "react-icons/ri";
 import {
   FaFacebookF,
   FaTwitter,
-  FaPinterestP,
   FaInstagram,
-  FaApple,
-  FaGooglePlay,
-  FaCcVisa,
-  FaCcMastercard,
-  FaCcDiscover,
-  FaCcApplePay,
+  FaLinkedinIn,
 } from "react-icons/fa";
-import { HiOutlineLockClosed } from "react-icons/hi";
+import { IoQrCodeOutline } from "react-icons/io5";
 
 const Footer = () => {
-  const currentYear = 2026;
-
-  const navigation = {
-    myAccount: [
-      { name: "My Account", href: "#" },
-      { name: "Order History", href: "#" },
-      { name: "Shoping Cart", href: "#", active: true },
-      { name: "Wishlist", href: "#" },
-      { name: "Settings", href: "#" },
-    ],
-    helps: [
-      { name: "Contact", href: "#" },
-      { name: "Faqs", href: "#" },
-      { name: "Terms & Condition", href: "#" },
-      { name: "Privacy Policy", href: "#" },
-    ],
-    proxy: [
-      { name: "About", href: "#" },
-      { name: "Shop", href: "#" },
-      { name: "Product", href: "#" },
-      { name: "Products Details", href: "#" },
-      { name: "Track Order", href: "#" },
-    ],
-  };
-
   return (
-    <footer className="bg-[#1A1A1A] text-[#999999] pt-16 pb-8 px-4 sm:px-6 lg:px-8 font-sans border-t border-gray-800">
-      {/* Responsive Grid:
-          - grid-cols-1: Mobile
-          - md:grid-cols-3: Tablet
-          - lg:grid-cols-5: Desktop 
-      */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-10 lg:gap-8">
-        {/* Brand Info */}
-        <div className="md:col-span-1 lg:col-span-1">
-          <h3 className="text-white text-lg font-semibold mb-6">
-            About Shopery
-          </h3>
-          <p className="text-sm leading-6 mb-6">
-            Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis
-            dui, eget bibendum magna congue nec.
-          </p>
-          <div className="flex items-center gap-2 flex-wrap">
-            <span className="text-white border-b-2 border-[#00B207] pb-0.5 font-medium tracking-tight">
-              (219) 555-0114
-            </span>
-            <span className="text-xs">or</span>
-            <Link
-              href="mailto:Proxy@gmail.com"
-              className="text-white border-b-2 border-[#00B207] pb-0.5 font-medium hover:text-[#00B207] transition-all"
-            >
-              Proxy@gmail.com
-            </Link>
+    <footer className="bg-black text-white pt-20 pb-6 font-poppins">
+      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        {/* Exclusive Section */}
+        <div className="space-y-4">
+          <h2 className="text-2xl font-bold tracking-wider">Exclusive</h2>
+          <h3 className="text-xl font-medium">Subscribe</h3>
+          <p className="text-sm">Get 10% off your first order</p>
+          <div className="relative max-w-54.25">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="bg-transparent border border-white rounded py-3 px-4 w-full focus:outline-none text-sm"
+            />
+            <RiSendPlane2Line className="absolute right-3 top-1/2 -translate-y-1/2 text-xl cursor-pointer" />
           </div>
         </div>
 
-        {/* Dynamic Nav Columns */}
-        <NavColumn title="My Account" items={navigation.myAccount} />
-        <NavColumn title="Helps" items={navigation.helps} />
-        <NavColumn title="Proxy" items={navigation.proxy} />
+        {/* Support Section */}
+        <div className="space-y-4">
+          <h2 className="text-xl font-medium">Support</h2>
+          <address className="not-italic text-sm leading-relaxed">
+            111 Bijoy sarani, Dhaka, <br /> DH 1515, Bangladesh.
+          </address>
+          <p className="text-sm">exclusive@gmail.com</p>
+          <p className="text-sm">+88015-88888-9999</p>
+        </div>
 
-        {/* Mobile App Section */}
-        <div className="flex flex-col">
-          <h3 className="text-white text-lg font-semibold mb-6">
-            Download our Mobile App
-          </h3>
-          <div className="flex flex-row md:flex-col gap-3 flex-wrap">
-            <div className="flex items-center gap-3 bg-[#333333] hover:bg-[#404040] py-2 px-4 rounded-md transition-all group w-full sm:w-auto md:w-full max-w-45 cursor-pointer">
-              <div className="text-white group-hover:scale-110 transition-transform duration-300">
-                <FaApple className="text-2xl" />
-              </div>
-              <div className="flex flex-col text-left">
-                <span className="text-[10px] uppercase text-gray-400 font-medium leading-none mb-1">
-                  Download on the
-                </span>
-                <span className="text-sm font-semibold text-white leading-none">
-                  App Store
-                </span>
-              </div>
+        {/* Account Section */}
+        <div className="space-y-4">
+          <h2 className="text-xl font-medium">Account</h2>
+          <ul className="space-y-3 text-sm">
+            <li>
+              <a href="#" className="hover:underline">
+                My Account
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                Login / Register
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                Cart
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                Wishlist
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                Shop
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* Quick Link Section */}
+        <div className="space-y-4">
+          <h2 className="text-xl font-medium">Quick Link</h2>
+          <ul className="space-y-3 text-sm">
+            <li>
+              <a href="#" className="hover:underline">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                Terms Of Use
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                FAQ
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* Download App Section */}
+        <div className="space-y-4">
+          <h2 className="text-xl font-medium">Download App</h2>
+          <p className="text-xs text-gray-400">
+            Save $3 with App New User Only
+          </p>
+
+          <div className="flex gap-2">
+            {/* QR Code Placeholder */}
+            <div className="bg-white p-1">
+              <IoQrCodeOutline />
             </div>
-            <div className="flex items-center gap-3 bg-[#333333] hover:bg-[#404040] py-2 px-4 rounded-md transition-all group w-full sm:w-auto md:w-full max-w-45 cursor-pointer">
-              <div className="text-white group-hover:scale-110 transition-transform duration-300">
-                <FaGooglePlay className="text-xl" />
-              </div>
-              <div className="flex flex-col text-left">
-                <span className="text-[10px] uppercase text-gray-400 font-medium leading-none mb-1">
-                  Download on the
-                </span>
-                <span className="text-sm font-semibold text-white leading-none">
-                  Google play
-                </span>
-              </div>
+
+            <div className="flex flex-col gap-2">
+              <Image
+                src="/google-play.png"
+                alt="Google Play"
+                width={110}
+                height={35}
+                className="cursor-pointer"
+              />
+              <Image
+                src="/app-store.png"
+                alt="App Store"
+                width={110}
+                height={35}
+                className="cursor-pointer"
+              />
             </div>
+          </div>
+
+          <div className="flex gap-6 mt-4 text-xl">
+            <FaFacebookF className="cursor-pointer hover:text-gray-400" />
+            <FaTwitter className="cursor-pointer hover:text-gray-400" />
+            <FaInstagram className="cursor-pointer hover:text-gray-400" />
+            <FaLinkedinIn className="cursor-pointer hover:text-gray-400" />
           </div>
         </div>
       </div>
 
-      {/* Bottom Bar: Stacked on Mobile, Row on Desktop */}
-      <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-[#2B2B2B] flex flex-col lg:flex-row justify-between items-center gap-8">
-        {/* Social Icons */}
-        <div className="flex items-center gap-3 order-1 lg:order-0">
-          <SocialBtn icon={<FaFacebookF />} active />
-          <SocialBtn icon={<FaTwitter />} />
-          <SocialBtn icon={<FaPinterestP />} />
-          <SocialBtn icon={<FaInstagram />} />
-        </div>
-
-        <p className="text-sm tracking-tight text-center order-3 lg:order-0">
-          Sun Cart eCommerce © {currentYear}. All Rights Reserved
+      {/* Copyright Section */}
+      <div className="border-t border-gray-800 mt-16 pt-4 text-center">
+        <p className="text-sm text-gray-500 font-light">
+          &copy; Copyright Rimel 2022. All right reserved
         </p>
-
-        {/* Security & Payments */}
-        <div className="flex flex-col sm:flex-row items-center gap-5 flex-wrap justify-center order-2 lg:order-0">
-          <div className="flex gap-4 text-2xl opacity-60 grayscale hover:grayscale-0 transition-all text-white">
-            <FaCcApplePay title="Apple Pay" />
-            <FaCcVisa title="Visa" />
-            <FaCcDiscover title="Discover" />
-            <FaCcMastercard title="Mastercard" />
-          </div>
-          <div className="flex items-center gap-2 text-white border border-[#333333] px-3 py-1.5 rounded-lg text-sm bg-[#222222]">
-            <HiOutlineLockClosed className="text-[#00B207] text-lg" />
-            <span className="whitespace-nowrap font-medium">
-              Secure Payment
-            </span>
-          </div>
-        </div>
       </div>
     </footer>
   );
 };
-
-// Reusable Helper Components
-const NavColumn = ({ title, items }) => (
-  <div className="min-w-30">
-    <h3 className="text-white text-lg font-semibold mb-6">{title}</h3>
-    <ul className="flex flex-col gap-3.5 text-sm">
-      {items.map((item, i) => (
-        <li key={`${title}-${i}`}>
-          <Link
-            href={item.href}
-            className={`transition-colors duration-200 block ${
-              item.active
-                ? "text-white font-medium border-l-2 border-[#00B207] pl-2"
-                : "hover:text-white"
-            }`}
-          >
-            {item.name}
-          </Link>
-        </li>
-      ))}
-    </ul>
-  </div>
-);
-
-const SocialBtn = ({ icon, active = false }) => (
-  <div
-    className={`w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 border border-[#333333] cursor-pointer ${
-      active
-        ? "bg-[#00B207] text-white border-[#00B207]"
-        : "text-[#999999] hover:bg-[#333333] hover:text-white"
-    }`}
-  >
-    {icon}
-  </div>
-);
 
 export default Footer;
