@@ -10,7 +10,7 @@
     "stock": 12,
     "isHot": true,
     "description": "Premium polarized lenses with lightweight frames.",
-    "image": "https://images.unsplash.com/photo-1511499767390-903390e62bc0?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1511499767390-903390e62bc0?auto=format&fit=crop&w=800",
     "category": "Sunglasses"
   },
   {
@@ -24,7 +24,7 @@
     "stock": 8,
     "isHot": true,
     "description": "100% organic linen for the ultimate summer comfort.",
-    "image": "https://images.unsplash.com/photo-1598033129183-c4f50c7176c8?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800",
     "category": "Summer Outfits"
   },
   {
@@ -38,7 +38,7 @@
     "stock": 25,
     "isHot": false,
     "description": "Non-sticky mineral sunscreen with a matte finish.",
-    "image": "https://images.unsplash.com/photo-1556228578-8c7c2f23b5b1?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1556228578-0004128b8089?auto=format&fit=crop&w=800",
     "category": "Skincare"
   },
   {
@@ -52,7 +52,7 @@
     "stock": 15,
     "isHot": true,
     "description": "Extra large microfiber towel that dries in minutes.",
-    "image": "https://images.unsplash.com/photo-1520116468816-95b69f847357?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1520116468816-95b69f847357?auto=format&fit=crop&w=800",
     "category": "Beach Accessories"
   },
   {
@@ -66,7 +66,7 @@
     "stock": 10,
     "isHot": false,
     "description": "Classic wide-brim hat for sun protection and style.",
-    "image": "https://images.unsplash.com/photo-1521312905814-732867676f02?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1533444902268-42af50ed0d31?auto=format&fit=crop&w=800",
     "category": "Accessories"
   },
   {
@@ -80,7 +80,7 @@
     "stock": 22,
     "isHot": true,
     "description": "A fresh aquatic scent that lasts all day.",
-    "image": "https://images.unsplash.com/photo-1544467328-945173163b7b?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1544467328-945173163b7b?auto=format&fit=crop&w=800",
     "category": "Skincare"
   },
   {
@@ -94,7 +94,7 @@
     "stock": 18,
     "isHot": false,
     "description": "Retro aesthetic with modern UV protection.",
-    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=800",
     "category": "Sunglasses"
   },
   {
@@ -108,7 +108,7 @@
     "stock": 5,
     "isHot": true,
     "description": "Bright and airy dress for beach parties.",
-    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800",
     "category": "Summer Outfits"
   },
   {
@@ -122,7 +122,7 @@
     "stock": 30,
     "isHot": false,
     "description": "Large enough to carry all your beach essentials.",
-    "image": "https://images.unsplash.com/photo-1533630846284-d42c336cj029?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800",
     "category": "Beach Accessories"
   },
   {
@@ -136,7 +136,7 @@
     "stock": 40,
     "isHot": true,
     "description": "Aloe vera based gel for after-sun skin recovery.",
-    "image": "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=800",
     "category": "Skincare"
   },
   {
@@ -150,7 +150,7 @@
     "stock": 14,
     "isHot": true,
     "description": "The perfect blend of style and durability.",
-    "image": "https://images.unsplash.com/photo-1577803645773-f96470509666?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1577803645773-f96470509666?auto=format&fit=crop&w=800",
     "category": "Sunglasses"
   },
   {
@@ -164,7 +164,7 @@
     "stock": 25,
     "isHot": false,
     "description": "Sturdy and stylish denim for hot weather.",
-    "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=800",
     "category": "Summer Outfits"
   },
   {
@@ -178,7 +178,7 @@
     "stock": 60,
     "isHot": false,
     "description": "Easy to apply protection for nose and ears.",
-    "image": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800",
     "category": "Skincare"
   },
   {
@@ -192,7 +192,7 @@
     "stock": 100,
     "isHot": true,
     "description": "Classic striped ball for pool and beach fun.",
-    "image": "https://images.unsplash.com/photo-1614633833026-002063965709?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1473186578172-c141e6798ee4?auto=format&fit=crop&w=800",
     "category": "Beach Accessories"
   },
   {
@@ -206,7 +206,7 @@
     "stock": 20,
     "isHot": false,
     "description": "Multi-pocket cargo shorts for summer trekking.",
-    "image": "https://images.unsplash.com/photo-1565084888279-aca607ecce0c?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1565084888279-aca607ecce0c?auto=format&fit=crop&w=800",
     "category": "Summer Outfits"
   },
   {
@@ -220,7 +220,7 @@
     "stock": 10,
     "isHot": true,
     "description": "Aerodynamic design for cycling and running.",
-    "image": "https://images.unsplash.com/photo-1511499767390-903390e62bc0?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1516035054744-d474c52196ea?auto=format&fit=crop&w=800",
     "category": "Sunglasses"
   },
   {
@@ -234,7 +234,7 @@
     "stock": 6,
     "isHot": true,
     "description": "Wind-resistant large umbrella with sand anchor.",
-    "image": "https://images.unsplash.com/photo-1502476571520-2c70034a7872?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1502476571520-2c70034a7872?auto=format&fit=crop&w=800",
     "category": "Beach Accessories"
   },
   {
@@ -248,7 +248,7 @@
     "stock": 35,
     "isHot": false,
     "description": "Brightens skin and repairs sun damage.",
-    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800",
     "category": "Skincare"
   },
   {
@@ -262,7 +262,7 @@
     "stock": 12,
     "isHot": false,
     "description": "Elegant protection for face and neck.",
-    "image": "https://images.unsplash.com/photo-1575425186775-b8de9a427e67?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1575425186775-b8de9a427e67?auto=format&fit=crop&w=800",
     "category": "Accessories"
   },
   {
@@ -276,7 +276,7 @@
     "stock": 50,
     "isHot": true,
     "description": "Super soft cotton tee for everyday wear.",
-    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800",
     "category": "Summer Outfits"
   },
   {
@@ -290,7 +290,7 @@
     "stock": 8,
     "isHot": true,
     "description": "Luxury gold-plated frames with brown tint.",
-    "image": "https://images.unsplash.com/photo-1508296695146-257a814070b4?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=800",
     "category": "Sunglasses"
   },
   {
@@ -304,7 +304,7 @@
     "stock": 40,
     "isHot": false,
     "description": "Quick-dry fabric with mesh lining.",
-    "image": "https://images.unsplash.com/photo-1590502160462-0997103df7f3?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1590502160462-0997103df7f3?auto=format&fit=crop&w=800",
     "category": "Summer Outfits"
   },
   {
@@ -318,7 +318,7 @@
     "stock": 100,
     "isHot": false,
     "description": "Moisturizing protection for your lips.",
-    "image": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?auto=format&fit=crop&w=800",
     "category": "Skincare"
   },
   {
@@ -332,7 +332,7 @@
     "stock": 15,
     "isHot": true,
     "description": "Classic semi-rimless frames.",
-    "image": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=800",
     "category": "Sunglasses"
   },
   {
@@ -346,7 +346,7 @@
     "stock": 80,
     "isHot": false,
     "description": "Ergonomic design for long beach walks.",
-    "image": "https://images.unsplash.com/photo-1562183241-b937e95585b6?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1562183241-b937e95585b6?auto=format&fit=crop&w=800",
     "category": "Accessories"
   },
   {
@@ -360,7 +360,7 @@
     "stock": 25,
     "isHot": true,
     "description": "Professional soft-touch beach volleyball.",
-    "image": "https://images.unsplash.com/photo-1612872086822-4421f17be332?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1612872086822-4421f17be332?auto=format&fit=crop&w=800",
     "category": "Beach Accessories"
   },
   {
@@ -374,7 +374,7 @@
     "stock": 30,
     "isHot": false,
     "description": "Breathable pique cotton in vibrant colors.",
-    "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&w=800",
     "category": "Summer Outfits"
   },
   {
@@ -388,7 +388,7 @@
     "stock": 20,
     "isHot": true,
     "description": "Spray-on sunscreen for easy reapplication.",
-    "image": "https://images.unsplash.com/photo-1590439471364-192aa70c0b53?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1590439471364-192aa70c0b53?auto=format&fit=crop&w=800",
     "category": "Skincare"
   },
   {
@@ -402,7 +402,7 @@
     "stock": 18,
     "isHot": false,
     "description": "Vibrant blue mirrored lenses.",
-    "image": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?auto=format&fit=crop&w=800",
     "category": "Sunglasses"
   },
   {
@@ -416,7 +416,7 @@
     "stock": 12,
     "isHot": true,
     "description": "Keeps your electronics safe near water.",
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800",
     "category": "Beach Accessories"
   },
   {
@@ -430,7 +430,7 @@
     "stock": 10,
     "isHot": false,
     "description": "Relaxed fit linen pants for cool evenings.",
-    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=800",
     "category": "Summer Outfits"
   },
   {
@@ -444,7 +444,7 @@
     "stock": 45,
     "isHot": false,
     "description": "Removes salt and sand without drying.",
-    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800",
     "category": "Skincare"
   },
   {
@@ -458,7 +458,7 @@
     "stock": 14,
     "isHot": true,
     "description": "Elegant cat-eye shape for a bold look.",
-    "image": "https://images.unsplash.com/photo-1513673048123-08505aa67c70?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1513673048123-08505aa67c70?auto=format&fit=crop&w=800",
     "category": "Sunglasses"
   },
   {
@@ -472,7 +472,7 @@
     "stock": 60,
     "isHot": true,
     "description": "Snap it to activate instant cooling.",
-    "image": "https://images.unsplash.com/photo-1626244840801-b5860368df7e?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1591348278863-a8fb3887e2ac?auto=format&fit=crop&w=800",
     "category": "Accessories"
   },
   {
@@ -486,7 +486,7 @@
     "stock": 20,
     "isHot": false,
     "description": "Lightweight and easy to carry.",
-    "image": "https://images.unsplash.com/photo-1591017403286-fd8ba82ab213?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1591017403286-fd8ba82ab213?auto=format&fit=crop&w=800",
     "category": "Beach Accessories"
   },
   {
@@ -500,7 +500,7 @@
     "stock": 30,
     "isHot": false,
     "description": "Versatile silk scarf with nautical prints.",
-    "image": "https://images.unsplash.com/photo-1584030373081-f37b7bb4fa8e?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1584030373081-f37b7bb4fa8e?auto=format&fit=crop&w=800",
     "category": "Accessories"
   },
   {
@@ -514,7 +514,7 @@
     "stock": 40,
     "isHot": true,
     "description": "Sun protection with a hint of color.",
-    "image": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&fit=crop&w=800",
     "category": "Skincare"
   },
   {
@@ -528,7 +528,7 @@
     "stock": 10,
     "isHot": true,
     "description": "Eco-friendly frames that float in water.",
-    "image": "https://images.unsplash.com/photo-1545465242-7013d3170e28?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1545465242-7013d3170e28?auto=format&fit=crop&w=800",
     "category": "Sunglasses"
   },
   {
@@ -542,7 +542,7 @@
     "stock": 25,
     "isHot": true,
     "description": "Fun flamingo-shaped pool float.",
-    "image": "https://images.unsplash.com/photo-1533519149322-1d5b27233652?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1533519149322-1d5b27233652?auto=format&fit=crop&w=800",
     "category": "Beach Accessories"
   },
   {
@@ -556,7 +556,7 @@
     "stock": 12,
     "isHot": false,
     "description": "Simple and chic cotton dress.",
-    "image": "https://images.unsplash.com/photo-1572804013307-f9615c12d180?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1572804013307-f9615c12d180?auto=format&fit=crop&w=800",
     "category": "Summer Outfits"
   },
   {
@@ -570,7 +570,7 @@
     "stock": 50,
     "isHot": false,
     "description": "Soothes skin with cucumber extract.",
-    "image": "https://images.unsplash.com/photo-1532413992378-f169ac26fff0?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1532413992378-f169ac26fff0?auto=format&fit=crop&w=800",
     "category": "Skincare"
   },
   {
@@ -584,7 +584,7 @@
     "stock": 40,
     "isHot": true,
     "description": "Fun and safe goggles for the little ones.",
-    "image": "https://images.unsplash.com/photo-1559523161-0fc0d8b38a7a?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1559523161-0fc0d8b38a7a?auto=format&fit=crop&w=800",
     "category": "Sunglasses"
   },
   {
@@ -598,7 +598,7 @@
     "stock": 35,
     "isHot": true,
     "description": "Keeps water ice-cold for 24 hours.",
-    "image": "https://images.unsplash.com/photo-1523362628744-4cddf5927ba2?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1523362628744-4cddf5927ba2?auto=format&fit=crop&w=800",
     "category": "Accessories"
   },
   {
@@ -612,7 +612,7 @@
     "stock": 50,
     "isHot": false,
     "description": "Mesh bottom to let sand fall out.",
-    "image": "https://images.unsplash.com/photo-1622560811176-aeaf5d8466cc?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1622560811176-aeaf5d8466cc?auto=format&fit=crop&w=800",
     "category": "Beach Accessories"
   },
   {
@@ -626,7 +626,7 @@
     "stock": 15,
     "isHot": true,
     "description": "Trendy oversized look for cool comfort.",
-    "image": "https://images.unsplash.com/photo-1603189343302-e603f7add05a?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1603189343302-e603f7add05a?auto=format&fit=crop&w=800",
     "category": "Summer Outfits"
   },
   {
@@ -640,7 +640,7 @@
     "stock": 100,
     "isHot": false,
     "description": "Battery-operated fan for instant relief.",
-    "image": "https://images.unsplash.com/photo-1619230558499-16677f502c3a?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1623850832871-49ee7dd45ec3?auto=format&fit=crop&w=800",
     "category": "Accessories"
   },
   {
@@ -654,7 +654,7 @@
     "stock": 60,
     "isHot": false,
     "description": "Natural color with SPF protection.",
-    "image": "https://images.unsplash.com/photo-1617343253903-883a45634690?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1617343253903-883a45634690?auto=format&fit=crop&w=800",
     "category": "Skincare"
   },
   {
@@ -668,7 +668,7 @@
     "stock": 20,
     "isHot": true,
     "description": "Classic aviators for a cool summer vibe.",
-    "image": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?auto=format&fit=crop&w=800",
     "category": "Sunglasses"
   },
   {
@@ -682,7 +682,7 @@
     "stock": 25,
     "isHot": false,
     "description": "Oversized blanket with ground stakes.",
-    "image": "https://images.unsplash.com/photo-1468413253725-0d5181091126?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1468413253725-0d5181091126?auto=format&fit=crop&w=800",
     "category": "Beach Accessories"
   },
   {
@@ -696,7 +696,7 @@
     "stock": 15,
     "isHot": true,
     "description": "All your summer essentials in travel sizes.",
-    "image": "https://images.unsplash.com/photo-1556228578-8c7c2f23b5b1?q=80&w=800&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1556228578-8c7c2f23b5b1?auto=format&fit=crop&w=800",
     "category": "Skincare"
   }
 ]
