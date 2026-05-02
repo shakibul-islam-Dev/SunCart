@@ -49,7 +49,6 @@ const Registration = () => {
           onSubmit={onSubmit}
           validationBehavior="native"
         >
-          {/* Inputs (আগের মতোই থাকবে) */}
           <TextField
             isRequired
             name="name"
@@ -118,7 +117,6 @@ const Registration = () => {
               Create Account
             </Button>
 
-            {/* Google Sign Up */}
             <Button
               onClick={async () => {
                 await authClient.signIn.social({ provider: "google" });
