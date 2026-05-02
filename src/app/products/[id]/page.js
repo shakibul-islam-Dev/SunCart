@@ -1,3 +1,4 @@
+import Hero from "@/components/Hero/Hero";
 import ProductsDetails from "@/components/ProductGrid/ProductsDetails";
 import { getProductsData } from "@/lib/getProductsData";
 

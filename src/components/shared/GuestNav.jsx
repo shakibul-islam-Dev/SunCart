@@ -62,8 +62,8 @@ const GuestNavbar = () => {
               Login
             </Link>
             <Link
-              href="/signup"
-              className="bg-black text-white px-6 py-2.5 rounded hover:bg-gray-800 transition-all shadow-sm font-medium"
+              href="/registration"
+              className=" font-medium hover:text-gray-600 transition-colors"
             >
               Sign Up
             </Link>

@@ -1,15 +1,9 @@
-"use client";
-import React, { useState } from "react";
-
-import PublicHome from "./PublicHome";
-import Login from "./Login";
+import ProductGrid from "../ProductGrid/ProductGrid";
 
 const Homepage = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
   return (
     <section>
-      {isLoggedIn ? <Login> </Login> : <PublicHome></PublicHome>}
+      <ProductGrid></ProductGrid>
     </section>
   );
 };

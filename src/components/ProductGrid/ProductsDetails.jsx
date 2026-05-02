@@ -4,7 +4,6 @@ import Image from "next/image";
 import { IoStar, IoHeart, IoHeartOutline } from "react-icons/io5";
 
 import { useState } from "react";
-import { h1 } from "framer-motion/client";
 
 const ProductsDetails = ({ product }) => {
   const [quantity, setQuantity] = useState(0);
