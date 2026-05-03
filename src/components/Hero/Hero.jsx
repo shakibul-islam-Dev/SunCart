@@ -36,9 +36,7 @@ const Hero = () => {
 
   if (loading)
     return (
-      <div className="h-[400px] flex items-center justify-center">
-        Loading...
-      </div>
+      <div className="h-100 flex items-center justify-center">Loading...</div>
     );
   if (slides.length === 0) return null;
 
@@ -46,7 +44,7 @@ const Hero = () => {
 
   return (
     <section className="container mx-auto px-4 mt-6">
-      <div className="relative overflow-hidden rounded-3xl bg-[#F2F2F2] min-h-[400px] transition-all duration-500">
+      <div className="relative overflow-hidden rounded-3xl bg-[#F2F2F2] min-h-100 transition-all duration-500">
         <div className="grid grid-cols-1 md:grid-cols-2 w-full items-center px-8 md:px-16 py-10">
           {/* Text Content */}
           <div className="space-y-4 z-10 order-2 md:order-1">
@@ -78,7 +76,7 @@ const Hero = () => {
           </div>
 
           {/* Image Content */}
-          <div className="relative h-[300px] md:h-[400px] order-1 md:order-2 flex justify-center items-center">
+          <div className="relative h-75 md:h-100 order-1 md:order-2 flex justify-center items-center">
             <Image
               src={product.image}
               alt={product.name || "Product"}
