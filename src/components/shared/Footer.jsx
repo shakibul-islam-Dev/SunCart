@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { RiSendPlane2Line } from "react-icons/ri";
 import {
   FaFacebookF,
   FaTwitter,

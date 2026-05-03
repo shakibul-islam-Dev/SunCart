@@ -1,10 +1,11 @@
-import Categories from "../Categories/Categories";
+import Hero from "../Hero/Hero";
 import ProductGrid from "../ProductGrid/ProductGrid";
 export const dynamic = "force-dynamic";
-const Homepage = () => {
+const Homepage = ({ searchParams }) => {
   return (
     <section>
-      <ProductGrid></ProductGrid>
+      <Hero></Hero>
+      <ProductGrid searchParams={searchParams}></ProductGrid>
     </section>
   );
 };

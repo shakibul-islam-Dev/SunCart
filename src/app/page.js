@@ -1,9 +1,9 @@
 import Homepage from "@/components/Home/Homepage";
 
-export default function Home() {
+export default function Home({ searchParams }) {
   return (
     <>
-      <Homepage />
+      <Homepage searchParams={searchParams} />
     </>
   );
 }
