@@ -11,10 +11,6 @@ const nextConfig = {
         hostname: "**", // Sob website theke image allow korbe (development-er jonno)
       },
     ],
-    trustedOrigins: [
-      "https://suncart-omega.vercel.app",
-      "https://suncart-git-main-ishakibul98-1076s-projects.vercel.app",
-    ],
   },
   reactCompiler: true,
 };

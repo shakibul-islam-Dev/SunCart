@@ -4,7 +4,6 @@ import { Avatar, Card } from "@heroui/react";
 import { authClient } from "@/lib/auth-client";
 
 import Link from "next/link";
-import { Button } from "@heroui/react";
 import { UpdateInfo } from "@/components/UpdateInfo/UpdateInfo";
 import { redirect } from "next/navigation";
 
