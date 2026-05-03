@@ -5,14 +5,14 @@ import Link from "next/link";
 import { IoStar } from "react-icons/io5";
 
 export default function Products({ items }) {
-  const { id, image, name, rating, isHot, price } = items;
+  const { id, image, name, brand, rating, isHot, price } = items;
 
   return (
     <div className="group flex flex-col h-full bg-white rounded-2xl transition-all duration-300">
       {/* Image Container */}
       <div className="relative aspect-square w-full overflow-hidden rounded-2xl">
         <Image
-          className="object-cover transition-transform duration-500 group-hover:scale-110"
+          className="object-cover w-auto h-auto transition-transform duration-500 group-hover:scale-110"
           sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 16vw"
           src={image}
           alt={name}
@@ -43,6 +43,7 @@ export default function Products({ items }) {
               {rating}
             </span>
           </div>
+
           <p className="text-lg sm:text-xl font-bold text-[#DB4444]">
             ${price}
           </p>

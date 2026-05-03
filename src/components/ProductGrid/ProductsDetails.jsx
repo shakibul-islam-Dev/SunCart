@@ -9,7 +9,7 @@ const ProductsDetails = ({ product }) => {
   const [quantity, setQuantity] = useState(0);
   const [isFavorite, setIsFavorite] = useState(false);
   if (!product) return <div className="p-20 text-center">Loading...</div>;
-  const { name, rating, brand, description, image, price } = product;
+  const { name, rating, brand, description, category, image, price } = product;
 
   return (
     <div className="max-w-7xl mx-auto p-4 md:p-10 grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -20,7 +20,7 @@ const ProductsDetails = ({ product }) => {
           width={300}
           height={300}
           loading="eager"
-          className="object-contain aspect-square rounded-lg mix-blend-multiply"
+          className="object-contain w-auto h-auto aspect-square rounded-lg mix-blend-multiply"
         />
       </div>
 
@@ -43,6 +43,9 @@ const ProductsDetails = ({ product }) => {
             <span className="text-green-500 text-sm font-medium">In Stock</span>
           </div>
           <p className="text-2xl font-semibold mt-4">{brand}</p>
+          <p className="text-2xl text-green-500 font-semibold mt-4">
+            {category}
+          </p>
           <p className="text-2xl font-semibold mt-4">$ {price}</p>
         </div>
 
@@ -62,6 +65,7 @@ const ProductsDetails = ({ product }) => {
             <div className="px-6 py-2 font-bold w-16 text-center">
               {quantity}
             </div>
+
             <button
               onClick={() => setQuantity(quantity + 1)}
               className="px-4 py-2 hover:bg-[#DB4444] hover:text-white border-l transition-colors"

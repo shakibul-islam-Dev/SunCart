@@ -5,6 +5,7 @@ import Link from "next/link";
 import { FcGoogle } from "react-icons/fc";
 import { Button, Form, Input, TextField, FieldError } from "@heroui/react";
 import { authClient } from "@/lib/auth-client";
+import { ToastContainer } from "react-toastify";
 
 const Registration = () => {
   const router = useRouter();
@@ -22,6 +23,7 @@ const Registration = () => {
     const image = e.target.image.value;
     const email = e.target.email.value;
     const password = e.target.password.value;
+    const notify = () => toast("Wow so easy!");
 
     const { data, error } = await authClient.signUp.email({
       name,
@@ -33,13 +35,16 @@ const Registration = () => {
     if (error) {
       alert(error.message);
     } else {
-      console.log("Signup Success:", data);
+      notify;
+
+      console.log("Signup Success:");
       router.push("/");
     }
   };
 
   return (
     <div className="flex-1 flex items-center justify-center w-full px-4 py-6">
+      <ToastContainer />;
       <div className="w-full max-w-100">
         <div className="flex flex-col gap-2 mb-10">
           <h2 className="text-3xl font-medium tracking-wider text-black">
