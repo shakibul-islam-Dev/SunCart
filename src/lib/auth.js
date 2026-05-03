@@ -8,7 +8,7 @@ const db = client.db("suncart");
 export const auth = betterAuth({
   database: mongodbAdapter(db),
   // Strict Fix: Fallback URL na dile Vercel build fail korbe
-  baseURL: process.env.BETTER_AUTH_URL || "https://sun-cart-hdlk.vercel.app",
+  baseURL: process.env.BETTER_AUTH_URL,
   secret: process.env.BETTER_AUTH_SECRET,
   emailAndPassword: { enabled: true },
   socialProviders: {
