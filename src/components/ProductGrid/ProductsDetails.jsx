@@ -19,7 +19,8 @@ const ProductsDetails = ({ product }) => {
           alt={name}
           width={300}
           height={300}
-          className="object-contain rounded-lg mix-blend-multiply"
+          loading="eager"
+          className="object-contain aspect-square rounded-lg mix-blend-multiply"
         />
       </div>
 

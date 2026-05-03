@@ -1,7 +1,8 @@
 "use client";
 
 import { Button, Form, Input, TextField, FieldError } from "@heroui/react";
-import { authClient } from "@/lib/auth-clients";
+import { authClient } from "@/lib/auth-client";
+
 export default function Login() {
   const onSubmit = async (e) => {
     e.preventDefault();
@@ -13,9 +14,9 @@ export default function Login() {
       password,
       callbackURL: "/",
     });
-    console.log(data, error);
 
-    console.log(email, password);
+    localStorage.setItem("isLoggedIn", "true");
+    window.location.href = "/";
   };
 
   return (
@@ -31,12 +32,18 @@ export default function Login() {
 
       <Form className="flex flex-col gap-10" onSubmit={onSubmit}>
         {/* Email Field */}
-        <TextField isRequired name="email" type="email" className="w-full">
+        <TextField
+          isRequired
+          name="email"
+          type="email"
+          className="w-full"
+          aria-label="Email" // Added aria-label
+        >
           <Input
             variant="underlined"
             placeholder="Email or Phone Number"
-            /* classNames এর বদলে সরাসরি className এবং Tailwind ব্যবহার করুন */
             className="w-full border-b border-gray-400 py-3 text-base placeholder:text-gray-400 focus:border-black outline-none transition-all"
+            aria-label="Email Input" // Added aria-label for accessibility
           />
           <FieldError className="text-xs text-red-500 mt-1" />
         </TextField>
@@ -47,11 +54,13 @@ export default function Login() {
           name="password"
           type="password"
           className="w-full"
+          aria-label="Password" // Added aria-label
         >
           <Input
             variant="underlined"
             placeholder="Password"
             className="w-full border-b border-gray-400 py-3 text-base placeholder:text-gray-400 focus:border-black outline-none transition-all"
+            aria-label="Password Input" // Added aria-label
           />
           <FieldError className="text-xs text-red-500 mt-1" />
         </TextField>

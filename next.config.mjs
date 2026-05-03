@@ -6,6 +6,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "images.unsplash.com",
       },
+      {
+        protocol: "https",
+        hostname: "**", // Sob website theke image allow korbe (development-er jonno)
+      },
     ],
   },
   reactCompiler: true,

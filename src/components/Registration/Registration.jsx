@@ -4,10 +4,16 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { FcGoogle } from "react-icons/fc";
 import { Button, Form, Input, TextField, FieldError } from "@heroui/react";
-import { authClient } from "@/lib/auth-clients";
+import { authClient } from "@/lib/auth-client";
 
 const Registration = () => {
   const router = useRouter();
+
+  const handleGoogle = async () => {
+    await authClient.signIn.social({
+      provider: "google",
+    });
+  };
 
   const onSubmit = async (e) => {
     e.preventDefault();
@@ -21,7 +27,7 @@ const Registration = () => {
       name,
       email,
       password,
-      image,
+      image: image.trim(),
     });
 
     if (error) {
@@ -118,9 +124,8 @@ const Registration = () => {
             </Button>
 
             <Button
-              onClick={async () => {
-                await authClient.signIn.social({ provider: "google" });
-              }}
+              type="button"
+              onClick={handleGoogle}
               variant="bordered"
               className="w-full border border-gray-400 py-7 rounded flex items-center justify-center gap-3 hover:bg-gray-50 transition-all h-auto bg-transparent"
             >
