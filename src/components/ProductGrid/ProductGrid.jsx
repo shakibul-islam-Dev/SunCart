@@ -3,7 +3,10 @@ import { FaFireAlt } from "react-icons/fa";
 import Products from "./Products";
 import Categories from "../Categories/Categories";
 
-export default async function ProductGrid() {
+export default async function ProductGrid({ searchParams }) {
+  const params = await searchParams;
+  const category = params?.category;
+  console.log(category);
   const productsData = await getProductsData();
 
   return (
@@ -18,7 +21,7 @@ export default async function ProductGrid() {
 
       {/* Categories Section - Horizontal Scroll Enabled */}
       <div className="w-full mb-10 overflow-hidden">
-        <Categories />
+        <Categories selectedCategory={category} />
       </div>
 
       {/* Products Grid */}

@@ -1,7 +1,7 @@
 import { Button } from "@heroui/react";
 import React from "react";
 
-const Categories = async () => {
+const Categories = async ({ selectedCategory }) => {
   const response = await fetch(
     "https://sun-cart-hdlk.vercel.app/categories.json",
   );
