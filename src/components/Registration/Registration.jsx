@@ -39,7 +39,7 @@ const Registration = () => {
   };
 
   return (
-    <div className="flex-1 flex items-center justify-center w-full px-4 py-12">
+    <div className="flex-1 flex items-center justify-center w-full px-4 py-6">
       <div className="w-full max-w-100">
         <div className="flex flex-col gap-2 mb-10">
           <h2 className="text-3xl font-medium tracking-wider text-black">
@@ -106,6 +106,21 @@ const Registration = () => {
             type="password"
             className="w-full"
             aria-label="Password"
+            validate={(value) => {
+              if (value.length < 8) {
+                return "Password must be at least 8 characters long";
+              }
+              if (!/[A-Z]/.test(value)) {
+                return "Password must contain at least one uppercase letter (A-Z)";
+              }
+              if (!/[a-z]/.test(value)) {
+                return "Password must contain at least one lowercase letter (a-z)";
+              }
+              if (!/[0-9]/.test(value)) {
+                return "Password must contain at least one number (0-9)";
+              }
+              return null;
+            }}
           >
             <Input
               variant="underlined"
@@ -118,7 +133,7 @@ const Registration = () => {
           <div className="flex flex-col gap-4 pt-4">
             <Button
               type="submit"
-              className="w-full bg-[#DB4444] text-white py-7 rounded font-medium text-base hover:opacity-90 transition-all h-auto"
+              className="w-full bg-[#DB4444] text-white py-3 rounded font-medium text-base hover:opacity-90 transition-all h-auto"
             >
               Create Account
             </Button>
@@ -127,7 +142,7 @@ const Registration = () => {
               type="button"
               onClick={handleGoogle}
               variant="bordered"
-              className="w-full border border-gray-400 py-7 rounded flex items-center justify-center gap-3 hover:bg-gray-50 transition-all h-auto bg-transparent"
+              className="w-full border border-gray-400 py-3 rounded flex items-center justify-center gap-3 hover:bg-gray-50 transition-all h-auto bg-transparent"
             >
               <FcGoogle className="text-2xl" />
               <span className="text-black font-normal">

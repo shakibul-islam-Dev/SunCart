@@ -1,3 +1,4 @@
+import Categories from "../Categories/Categories";
 import ProductGrid from "../ProductGrid/ProductGrid";
 export const dynamic = "force-dynamic";
 const Homepage = () => {
