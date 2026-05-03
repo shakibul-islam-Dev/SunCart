@@ -6,13 +6,14 @@ import { authClient } from "@/lib/auth-client";
 import Link from "next/link";
 import { Button } from "@heroui/react";
 import { UpdateInfo } from "@/components/UpdateInfo/UpdateInfo";
+import { redirect } from "next/navigation";
 
 export default function MyProfile() {
   const { data: session, isPending } = authClient.useSession();
   const user = session?.user;
 
   if (isPending) return <p className="p-10 text-center">Loading...</p>;
-  if (!user) return <p className="p-10 text-center">User not found</p>;
+  if (!user) redirect("/login");
 
   return (
     <div className="p-5 flex justify-center">
