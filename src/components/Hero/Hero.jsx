@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { Button } from "@heroui/react";
-// Lib function-ta import koro jate fetch error na hoy
 import { getProductsData } from "@/lib/getProductsData";
 
 const Hero = () => {
@@ -14,7 +13,6 @@ const Hero = () => {
   useEffect(() => {
     const loadData = async () => {
       try {
-        // Direct fetch-er bodole lib function call kora safe
         const data = await getProductsData();
         setSlides(data.slice(0, 3));
       } catch (error) {
@@ -26,7 +24,6 @@ const Hero = () => {
     loadData();
   }, []);
 
-  // Simple Auto-slide logic (3 second por por change hobe)
   useEffect(() => {
     if (slides.length === 0) return;
 
@@ -39,7 +36,9 @@ const Hero = () => {
 
   if (loading)
     return (
-      <div className="h-100 flex items-center justify-center">Loading...</div>
+      <div className="h-[400px] flex items-center justify-center">
+        Loading...
+      </div>
     );
   if (slides.length === 0) return null;
 
@@ -47,42 +46,59 @@ const Hero = () => {
 
   return (
     <section className="container mx-auto px-4 mt-6">
-      <div className="relative overflow-hidden rounded-3xl bg-[#F2F2F2] min-h-100 transition-all duration-500">
+      <div className="relative overflow-hidden rounded-3xl bg-[#F2F2F2] min-h-[400px] transition-all duration-500">
         <div className="grid grid-cols-1 md:grid-cols-2 w-full items-center px-8 md:px-16 py-10">
           {/* Text Content */}
           <div className="space-y-4 z-10 order-2 md:order-1">
-            <h3 className="text-[#DB4444] font-bold uppercase tracking-tighter">
+            {/* Hot Deals Badge */}
+            <div className="flex items-center gap-2">
+              <span className="bg-[#DB4444] text-white text-xs font-bold px-3 py-1 rounded-full animate-pulse">
+                Hot Deals 🔥
+              </span>
+            </div>
+
+            <h3 className="text-[#DB4444] font-bold uppercase tracking-widest text-sm">
               {product.category}
             </h3>
-            <h1 className="text-4xl md:text-5xl font-extrabold text-black leading-tight">
-              {product.title}
+
+            <h1 className="text-4xl md:text-6xl font-extrabold text-black leading-tight">
+              {product.name || product.title}
             </h1>
-            <div className="pt-4">
-              <Button className="bg-black text-white rounded-full px-10 font-bold">
+
+            {/* Summer Sale Highlight */}
+            <p className="text-xl md:text-2xl font-semibold text-gray-700">
+              Summer Sale <span className="text-[#DB4444]">50% OFF</span>
+            </p>
+
+            <div className="pt-6">
+              <Button className="bg-black text-white rounded-full px-10 py-6 font-bold text-lg hover:scale-105 transition-transform">
                 Shop Now
               </Button>
             </div>
           </div>
 
           {/* Image Content */}
-          <div className="relative h-75 md:h-87.5 order-1 md:order-2 flex justify-center items-center">
+          <div className="relative h-[300px] md:h-[400px] order-1 md:order-2 flex justify-center items-center">
             <Image
               src={product.image}
-              alt={product.title || "Product"}
-              width={350}
-              height={350}
-              className="object-contain drop-shadow-xl"
+              alt={product.name || "Product"}
+              width={400}
+              height={400}
+              className="object-contain drop-shadow-2xl transition-transform duration-700 hover:scale-110"
               priority
             />
           </div>
         </div>
 
         {/* Slide Indicators */}
-        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
+        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-3">
           {slides.map((_, index) => (
-            <div
+            <button
               key={index}
-              className={`h-2 rounded-full transition-all ${index === currentSlide ? "w-8 bg-black" : "w-2 bg-gray-400"}`}
+              onClick={() => setCurrentSlide(index)}
+              className={`h-2.5 rounded-full transition-all duration-300 ${
+                index === currentSlide ? "w-10 bg-black" : "w-2.5 bg-gray-400"
+              }`}
             />
           ))}
         </div>
