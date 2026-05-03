@@ -5,13 +5,12 @@ import { MongoClient } from "mongodb";
 const client = new MongoClient(process.env.MONGODB_URI);
 const db = client.db("suncart");
 
+// lib/auth.js
 export const auth = betterAuth({
   database: mongodbAdapter(db),
-  // Strict check: jodi env missing thake tobe build-er somoy error dibe na
-  baseURL: process.env.BETTER_AUTH_URL || "http://localhost:3000",
-  emailAndPassword: {
-    enabled: true,
-  },
+  // Force a fallback string during build time to prevent the .startsWith() crash
+  baseURL: process.env.BETTER_AUTH_URL || "https://sun-cart-hdlk.vercel.app",
+  secret: process.env.BETTER_AUTH_SECRET,
   socialProviders: {
     google: {
       clientId: process.env.GOOGLE_CLIENT_ID || "",
