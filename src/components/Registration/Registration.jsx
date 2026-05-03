@@ -27,7 +27,7 @@ const Registration = () => {
       name,
       email,
       password,
-      image: image.trim(),
+      image,
     });
 
     if (error) {
